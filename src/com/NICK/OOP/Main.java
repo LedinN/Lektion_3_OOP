@@ -4,14 +4,14 @@ import com.NICK.OOP.model.Student;
 
 public class Main {
     public static void main(String[] args) {
-
+        System.out.println("IS THIS THE FIRST COMMIT?");
         //Instantiate object
         Student benny = new Student("Benny",15,true);
         Student frida = new Student("Frida",19,false);
 
         System.out.println(benny.name);
         System.out.println(benny.age);
-        System.out.println(benny.name + " wants coffee? " + benny.wantCoffee);
+        System.out.println(benny.name + " wants covfefe? " + benny.wantCoffee);
 
         System.out.println(frida.name);
         System.out.println(frida.age);
@@ -36,9 +36,7 @@ public class Main {
     * #4 Name: camelCase (addTwoNumbers) followed by () then {}
      */
 /*
-        public static void addition2 ( int x, int y){
 
-        }
 */
 
     }
